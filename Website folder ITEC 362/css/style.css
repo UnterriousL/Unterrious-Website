@@ -1,0 +1,311 @@
+/* Reset default styles */
+* {
+  margin: 0;            /* Remove default margin */
+  padding: 0;           /* Remove default padding */
+  box-sizing: border-box; /* Include padding and border in element's total width */
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif; /* Set the font for the entire page */
+  background-color: #f0f0f0;     /* Set background color */
+  color:white;                   /* Set text color */
+  margin: 0;                     /* Remove margin */
+}
+
+/* Header styles */
+header {
+  background-color: #333; /* Set header background color */
+  color:#f4f4f4;            /* Set header text color */
+  text-align: center;     /* Center-align text within the header */
+  padding: 20px;          /* Add padding around the header */
+}
+
+nav ul {
+  list-style: none; /* Remove bullet points from the list */
+}
+
+nav ul li {
+  display: inline;    /* Display list items horizontally */
+  margin-right: 20px; /* Add right margin between list items */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underlines from links */
+  color: #fff;           /* Set link text color */
+  font-weight: bold;     /* Set link text to bold */
+}
+
+/* Logo styles */
+header img {
+  display: block;            /* Make the image a block element */
+  margin: 0 auto;            /* Center the image horizontally */
+  border: 5px solid #fff;    /* Add a white border with 5px width */
+  border-radius: 10px;      /* Round the corners of the border */
+}
+
+/* Main content styles */
+main {
+  padding: 20px;                /* Add padding around the main content */
+  background-color: #fff;       /* Set the background color of the main content */
+  margin: 20px;                 /* Add margin around the main content */
+  border: 1px solid #ddd;       /* Add a 1px border with a light gray color */
+  border-radius: 5px;          /* Round the corners of the border */
+}
+
+h1 {
+  font-size: 32px;    /* Set font size for h1 headings */
+  color:white;        /* Set text color for h1 headings */
+  margin-top: 20px;   /* Add top margin to h1 headings */
+}
+
+h2 {
+  font-size: 24px;    /* Set font size for h2 headings */
+  color:white;        /* Set text color for h2 headings */
+  margin-top: 15px;   /* Add top margin to h2 headings */
+}
+
+p {
+  font-size: 18px;    /* Set font size for paragraphs */
+  color:#e74c3c;        /* Set text color for paragraphs */
+  margin-top: 15px;   /* Add top margin to paragraphs */
+  line-height: 1.5;   /* Set line height for better readability */
+}
+
+/* Specific styles for elements with IDs or classes */
+#special-heading {
+  color: #e74c3c;      /* Set text color for the element with ID 'special-heading' */
+  font-size: 36px;     /* Set font size for the element with ID 'special-heading' */
+  margin-bottom: 15px; /* Add bottom margin to the element with ID 'special-heading' */
+}
+
+.special-paragraph {
+  font-style: italic;  /* Set the font style to italic for elements with class 'special-paragraph' */
+  font-size: 20px;     /* Set font size for elements with class 'special-paragraph' */
+}
+
+/* Image styles */
+img {
+  max-width: 100%;   /* Ensure images don't exceed their container width */
+  height: auto;      /* Maintain the aspect ratio of images */
+  margin: 15px 0;    /* Add margin above and below images */
+}
+
+/* Footer styles */
+footer {
+  text-align: center;     /* Center-align text within the footer */
+  padding: 15px;          /* Add padding around the footer */
+  background-color: #333; /* Set footer background color */
+  color: #fff;            /* Set footer text color */
+  clear: both;            /* Clear both floated elements above the footer */
+}
+
+body {
+  color: white;
+}
+
+
+/* Browser page
+
+/* Reset default styles */
+* {
+  margin: 0;            /* Reset margin to 0 for all elements */
+  padding: 0;           /* Reset padding to 0 for all elements */
+  box-sizing: border-box; /* Include padding and border in element's total width */
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif; /* Set the font for the entire page */
+  background-color:#555;     /* Set background color */
+  color: #333;                   /* Set text color */
+  margin: 0;                     /* Remove margin */
+}
+
+/* Header styles */
+header {
+  background-color: #333; /* Set header background color */
+  color: #333;            /* Set header text color */
+  text-align: center;     /* Center-align text within the header */
+  padding: 20px;          /* Add padding around the header */
+}
+
+nav ul {
+  list-style: none; /* Remove bullet points from the list */
+}
+
+nav ul li {
+  display: inline;    /* Display list items horizontally */
+  margin-right: 20px; /* Add right margin between list items */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underlines from links */
+  color: #fff;           /* Set link text color */
+  font-weight: bold;     /* Set link text to bold */
+}
+
+/* Logo styles */
+header img {
+  display: block;            /* Make the image a block element */
+  margin: 0 auto;            /* Center the image horizontally */
+  border: 5px solid #fff;    /* Add a white border with 5px width */
+  border-radius: 10px;      /* Round the corners of the border */
+}
+
+/* Main content styles */
+main {
+  padding: 20px;                /* Add padding around the main content */
+  background-color: #333;       /* Set the background color of the main content */
+  margin: 20px;                 /* Add margin around the main content */
+  border: 1px solid #ddd;       /* Add a 1px border with a light gray color */
+  border-radius: 5px;          /* Round the corners of the border */
+}
+
+h1 {
+  font-size: 32px;    /* Set font size for h1 headings */
+  color: #333;        /* Set text color for h1 headings */
+  margin-top: 20px;   /* Add top margin to h1 headings */
+}
+
+p {
+  font-size: 18px;    /* Set font size for paragraphs */
+  color:white;        /* Set text color for paragraphs */
+  margin-top: 15px;   /* Add top margin to paragraphs */
+  line-height: 1.5;   /* Set line height for better readability */
+}
+
+/* Specific styles for this page */
+h1.page-title {
+  font-size: 36px;     /* Set font size for h1 elements with class 'page-title' */
+  color: #e74c3c;      /* Set text color for h1 elements with class 'page-title' */
+  margin-bottom: 15px; /* Add bottom margin to h1 elements with class 'page-title' */
+}
+
+/* Car listing styles */
+.car-listing {
+  display: flex;            /* Use flexbox layout for elements with class 'car-listing' */
+  flex-wrap: wrap;          /* Allow items to wrap to the next line */
+  justify-content: space-between; /* Spread items evenly with space between */
+  margin-top: 20px;         /* Add top margin to elements with class 'car-listing' */
+}
+
+.car-listing img {
+  max-width: 48%;  /* Set maximum width for images inside elements with class 'car-listing' */
+  height: auto;     /* Maintain the aspect ratio of images */
+  margin-bottom: 10px; /* Add bottom margin to images inside 'car-listing' */
+}
+
+.car-details {
+  max-width: 48%;  /* Set maximum width for elements with class 'car-details' */
+  margin-bottom: 10px; /* Add bottom margin to elements with class 'car-details' */
+}
+
+/* Footer styles */
+footer {
+  text-align: center;     /* Center-align text within the footer */
+  padding: 15px;          /* Add padding around the footer */
+  background-color: #333; /* Set footer background color */
+  color: #fff;            /* Set footer text color */
+  clear: both;            /* Clear both floated elements above the footer */
+}
+
+.car-listing img {
+  max-width: 48%;  /* Set maximum width for images inside elements with class 'car-listing' */
+  height: auto;     /* Maintain the aspect ratio of images */
+  margin-top: 60px; /* Add top margin to push the images down */
+  margin-bottom: 10px; /* Add bottom margin to images inside 'car-listing' */
+}
+
+
+
+
+
+
+/* Contact page
+
+/* Reset default styles */
+* {
+  margin: 0;            /* Reset margin to 0 for all elements */
+  padding: 0;           /* Reset padding to 0 for all elements */
+  box-sizing: border-box; /* Include padding and border in element's total width */
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif; /* Set the font for the entire page */
+  background-color: #333;     /* Set background color */
+  color: #333;                   /* Set text color */
+  margin: 0;                     /* Remove margin */
+}
+
+/* Header styles */
+header {
+  background-color: #333; /* Set header background color */
+  color: #fff;            /* Set header text color */
+  text-align: center;     /* Center-align text within the header */
+  padding: 20px;          /* Add padding around the header */
+}
+
+nav ul {
+  list-style: none; /* Remove bullet points from the list */
+}
+
+nav ul li {
+  display: inline;    /* Display list items horizontally */
+  margin-right: 20px; /* Add right margin between list items */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underlines from links */
+  color: #fff;           /* Set link text color */
+  font-weight: bold;     /* Set link text to bold */
+}
+
+/* Main content styles */
+main {
+  padding: 20px;                /* Add padding around the main content */
+  background-color: #333;       /* Set the background color of the main content */
+  margin: 20px;                 /* Add margin around the main content */
+  border: 1px solid #ddd;       /* Add a 1px border with a light gray color */
+  border-radius: 5px;          /* Round the corners of the border */
+}
+
+h1 {
+  font-size: 32px;    /* Set font size for h1 headings */
+  color: #333;        /* Set text color for h1 headings */
+  margin-top: 20px;   /* Add top margin to h1 headings */
+}
+
+h2 {
+  font-size: 28px;    /* Set font size for h2 headings */
+  color: #e74c3c;        /* Set text color for h2 headings */
+  margin-top: 15px;   /* Add top margin to h2 headings */
+}
+
+h3 {
+  font-size: 24px;    /* Set font size for h3 headings */
+  color: #e74c3c;     /* Set text color for h3 headings */
+  margin-top: 15px;   /* Add top margin to h3 headings */
+}
+
+p {
+  font-size: 18px;    /* Set font size for paragraphs */
+  color: white;        /* Set text color for paragraphs */
+  margin-top: 15px;   /* Add top margin to paragraphs */
+  line-height: 1.5;   /* Set line height for better readability */
+}
+
+/* Contact image styles */
+.contact-image {
+  display: block;    /* Make the image a block element */
+  margin: 0 auto;    /* Center the image horizontally */
+}
+
+/* Social media image styles */
+.social-media-image {
+  display: block;    /* Make the image a block element */
+  margin: 0 auto;    /* Center the image horizontally */
+  max-width: 80%;    /* Set a maximum width for the image */
+}
+
